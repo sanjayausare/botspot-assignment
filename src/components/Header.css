@@ -1,0 +1,45 @@
+nav ul{
+  list-style: none;
+  text-align: end;
+}
+nav li{
+  display: inline-block;
+  margin: 0% 1%;
+}
+nav{
+  display: inline-block;
+  width: 100%;
+  height: 4em;
+  /* background: #05386B; */
+  background: #5CDB95;
+}
+a{
+  
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #05386B;
+  /* color: #EDF5E1; */
+  transition: all ease-in-out 0.2s;
+
+}
+nav a:hover{
+  height: 3em;
+  background: #1e558b;
+  transition: all ease-in-out 0.2s;
+  color: #EDF5E1;
+}
+
+nav .active{
+  background: #05386B;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #EDF5E1;
+}
+.logo{
+  display: inline-block;
+  position: absolute;
+  padding: 0% 5%;
+  color: #05386B;
+  font-weight: 900;
+}
